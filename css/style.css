@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(0, 143, 190);
+    min-height: 10vh;
+    margin-bottom: 30px;
+}
+
+#header_logo {
+    color: aliceblue;
+}
+
+body {
+    display: grid;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    min-height: 80vh;
+}
+
+#article_1 {
+    display: grid;
+    margin-bottom: 10px;
+    background-color: rgb(179, 214, 253);
+    color: rgb(0, 143, 190);
+}
+
+#intro_para {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+#apple_logo {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    justify-self: end;
+}
+
+#blue_iphone {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    justify-self: start;
+    margin-left: 30px;
+}
+
+.apple_temp {
+    display: grid;
+    color: aliceblue;
+    background-color: rgb(0, 143, 190);
+    width: 40vw;
+    place-items: center;
+}
+
+#article_2 {
+    place-self: center;
+    display: grid;
+    background-color: hsl(114, 66%, 89%);
+}
+
+#code_img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.code_title {
+    color: rgb(88, 197, 134);
+}
+
+#section_2 {
+    display: grid;
+    background-color: hsl(0, 0%, 99%);
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+
+#article_3 {
+    place-self: center;
+    display: grid;
+    background-color: rgb(255, 216, 210);
+    margin-bottom: 10px;
+}
+
+#web_img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.web_title {
+    color: rgb(247, 126, 89);
+}
+
+#article_4 {
+    place-self: center;
+    display: grid;
+    background-color: rgb(255, 255, 162);
+    margin-bottom: 10px;
+}
+
+#dev_img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.dev_title {
+    color: rgb(158, 152, 100);
+}
+
+#article_5 {
+    place-self: center;
+    display: grid;
+    background-color: rgb(238, 202, 255);
+    margin-bottom: 10px;
+}
+
+#brand_img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.brand_title {
+    color: rgb(162, 137, 172);
+}
+
+#section_3 {
+display: grid;
+margin-bottom: 10px;
+background-color: rgb(161, 155, 255);
+}
+
+#article_6 {
+    place-self: center;
+    display: grid;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+#women_waving {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin-top: 15px;
+    justify-self: center;
+}
+
+.brand_title {
+    color: rgb(162, 137, 172);
+}
+
+#article_7 {
+    place-self: center;
+    display: grid;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+#man_img {
+    height: 140px;
+    width: 70px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+#arrow {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(223, 188, 255);
+}
+
+#art_7title {
+    display: grid;
+margin-bottom: 10px;
+    color: rgb(161, 111, 207);
+}
+
+#section_5 {
+    display: grid;
+margin-bottom: 10px;
+
+}
+#qoutes {
+    height: 10px;
+    width: 10px;
+}
+.testimonials {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+#person_3 {
+display: grid;
+background-color: rgb(250, 162, 162);
+margin: 10px;
+}
+#person_2 {
+    display: grid;
+background-color: rgb(240, 248, 171);
+margin: 10px;
+}
+#person_1 {
+    display: grid;
+background-color: rgb(186, 252, 224);
+margin: 10px;
+}
+
+
+
+footer {
+    min-height: 10vh;
+    background-color: rgb(78, 77, 77);
+    color: aliceblue;
+    display: grid;
+}
+
+.footer {
+    display: grid;
+    place-self: center;
+}
