@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-header {
+#mainheader {
     background-color: rgb(0, 143, 190);
     min-height: 10vh;
     margin-bottom: 30px;
@@ -220,7 +220,58 @@ background-color: rgb(186, 252, 224);
 margin: 10px;
 }
 
+#section_6 {
+    display: grid;
+    background-color:rgb(113, 126, 243) ;
+    margin-bottom: 10px;
+}
+#benefits_header {
+margin-top: 20px;
+margin-bottom: 20px;
+color: aliceblue;
+}
+#benefits_para {
+    background-color: rgb(252, 253, 255);
+    margin-bottom: 10px;
+}
+#more {
+    color: aliceblue;
+    background-color: rgb(137, 118, 189);
+    margin: 40px;
+}
+#benefits_para > h4 {
+    color: rgb(167, 174, 236);
+}
+#benefits_para > h1 {
+    color: rgb(167, 174, 236);
+}
 
+#section_7 {
+
+}
+#about_us {
+    margin-top: 20px;
+}
+#aboutus_title {
+    color: rgb(189, 148, 228);
+}
+#boss_picture {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+#boss_qoute {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+#boss_para {
+    color:rgb(189, 148, 228) ;
+}
+#boss {
+    display: grid;
+    margin-bottom: 10px;
+}
 
 footer {
     min-height: 10vh;
