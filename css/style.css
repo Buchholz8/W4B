@@ -34,7 +34,7 @@ main {
 
 #article_1 {
     display: grid;
-    margin-bottom: 10px;
+margin-bottom: 10px;
     background-color: rgb(179, 214, 253);
     color: rgb(0, 143, 190);
     justify-items: center;
@@ -49,7 +49,7 @@ main {
 #intro_para {
     display: grid;
     text-align: left;
-margin-bottom: 10px;
+margin: 10px;
 }
 
 #apple_logo {
@@ -63,18 +63,20 @@ margin-bottom: 10px;
     height: 225px;
     object-fit: cover;
     display: grid;
-    justify-self: start;
-    align-self: baseline;
+justify-self: start;
 }
 
 .apple_temp {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:40px 100px;
     color: aliceblue;
     background-color: rgb(0, 143, 190);
-    width: 40vw;
-    border-radius: 15px;
-    justify-self: start;
+    border-radius: 30px;
+    place-items: center;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #article_2 {
@@ -114,26 +116,38 @@ margin-bottom: 10px;
     text-align: center;
     border-radius: 15px;
 }
+#article_3 > p {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+    color: rgb(9, 19, 27);
+}
 
 #web_img {
     height: 50px;
     width: 50px;
     object-fit: cover;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .web_title {
     color: rgb(247, 126, 89);
+    margin-bottom: 15px;
 }
 
 #article_4 {
     place-self: center;
     display: grid;
-    background-color: rgb(255, 255, 162);
+    background-color: rgb(255, 232, 190);
     margin-bottom: 10px;
     justify-items: center;
     text-align: center;
     border-radius: 15px;
+}
+#article_4 > p {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+    color: rgb(9, 19, 27);
 }
 
 #dev_img {
@@ -141,20 +155,28 @@ margin-bottom: 10px;
     width: 50px;
     object-fit: cover;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .dev_title {
     color: rgb(158, 152, 100);
+    margin-bottom: 15px;
 }
 
 #article_5 {
     place-self: center;
     display: grid;
-    background-color: rgb(238, 202, 255);
+    background-color: rgb(216, 207, 255);
     margin-bottom: 10px;
     justify-items: center;
     text-align: center;
     border-radius: 15px;
+    margin-bottom: 15px;
+}
+#article_5 > p {
+    font-size: 0.8rem;
+    margin-bottom:70px;
+    color: rgb(9, 19, 27);
 }
 
 #brand_img {
@@ -166,6 +188,7 @@ margin-bottom: 10px;
 
 .brand_title {
     color: rgb(162, 137, 172);
+    margin-bottom: 15px;
 }
 
 #section_3 {
@@ -208,6 +231,9 @@ text-align: center;
     text-align: center;
     border-radius: 15px;
 }
+#article_7 > p {
+    margin-top: 20px;
+}
 
 #man_img {
     height: 140px;
@@ -218,7 +244,7 @@ text-align: center;
 #arrow {
     height: 80px;
     width: 80px;
-    background-color: rgb(223, 188, 255);
+    background-color: rgb(161, 155, 255);
     border-radius: 40px;
 }
 #section_4 {
@@ -235,7 +261,7 @@ text-align: center;
 #art_7title {
     display: grid;
 margin-bottom: 10px;
-    color: rgb(161, 111, 207);
+    color: rgb(161, 155, 255);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -264,21 +290,21 @@ text-align: center;
 }
 #person_3 {
 display: grid;
-background-color: rgb(250, 162, 162);
+background-color: rgb(174, 245, 198);
 margin: 10px;
 justify-items: center;
 border-radius: 15px;
 }
 #person_2 {
     display: grid;
-background-color: rgb(240, 248, 171);
+background-color: rgb(253, 207, 164);
 margin: 10px;
 justify-items: center;
 border-radius: 15px;
 }
 #person_1 {
     display: grid;
-background-color: rgb(186, 252, 224);
+background-color: rgb(250, 162, 162);
 margin: 10px;
 justify-items: center;
 border-radius: 15px;
@@ -286,7 +312,7 @@ border-radius: 15px;
 
 #section_6 {
     display: grid;
-    background-color:rgb(113, 126, 243) ;
+    background-color:rgb(161, 155, 255); ;
     margin-bottom: 10px;
 }
 #benefits_header {
@@ -311,14 +337,14 @@ font-size: 1.8rem;
     place-items: center;
 }
 #benefits_para>h1 {
-    color: rgb(167, 174, 236);
+    color: rgb(161, 155, 255);;
     margin-left: 10px;
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #benefits_para>h4 {
-    color: rgb(167, 174, 236);
+    color: rgb(161, 155, 255);;
     margin-left: 10px;
     margin-bottom: 25px;
 }
@@ -383,7 +409,7 @@ border-radius: 20px;
 
 #section_8 {
     display: grid;
-    background-color: rgb(148, 140, 255) ;
+    background-color: rgb(161, 155, 255); ;
     color: aliceblue;
     justify-items: center;
 
@@ -416,7 +442,7 @@ border-radius: 20px;
     margin-right: 20px;
 }
 #itsfree {
-    color: rgb(228, 159, 12);
+    color: rgb(247, 203, 108);
     font-size: 3rem;margin-bottom: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -474,6 +500,7 @@ footer {
         height: 400px;
         width: 500px;
     }
+
     #man_img{
         height: 275px;
         width: 200px;
@@ -485,6 +512,10 @@ footer {
     #sec6_paras {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+    #benefits_header {
+        display: grid;
+        justify-items: center;
     }
     #section_7 {
         display: grid;
@@ -507,5 +538,46 @@ footer {
 #section_5 {
     margin-left: 255px;
     margin-right: 255px;
+}
+#article_2 {
+    display: grid;
+    background-color: hsl(114, 66%, 89%);
+    justify-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+#article_2 > p {
+    font-size: 1.2rem;
+}
+#code_img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 15px;
+display: grid;
+}
+#article_7 {
+height: 90%;
+width: 40%;
+font-size: 0.8rem;
+}
+#linkedin_div {
+    height: 30px;
+}
+#about_us {
+    font-size: 0.7rem;
+}
+#intro_para {
+    grid-template-columns: 700px 300px;
+}
+#article_1 {
+    display: grid  ;
+    place-items: start;
+    grid-template-columns: 500px 200px;
+    min-height: 250px;
+}
+#blue_iphone {
+    display: grid;
 }
 }
