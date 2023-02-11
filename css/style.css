@@ -39,36 +39,41 @@ main {
     color: rgb(0, 143, 190);
     justify-items: center;
     border-radius: 15px;
+    column-gap: 10px;
+}
+.art1_ttl {
+    margin: 20px;
 }
 
 #intro_para {
     display: grid;
-    margin-bottom: 10px;
+    text-align: left;
+margin-bottom: 10px;
 }
 
 #apple_logo {
     width: 20px;
     height: 20px;
     object-fit: cover;
-    justify-self: end;
 }
 
 #blue_iphone {
     width: 150px;
     height: 225px;
     object-fit: cover;
-    margin-left: 30px;
     display: grid;
+    justify-self: start;
+    align-self: baseline;
 }
 
 .apple_temp {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     color: aliceblue;
     background-color: rgb(0, 143, 190);
-    width: 50vw;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    width: 40vw;
     border-radius: 15px;
+    justify-self: start;
 }
 
 #article_2 {
@@ -370,4 +375,11 @@ footer {
     display: grid;
     place-self: center;
     font-size: 0.6rem;
+}
+
+@media screen and (min-width:720px){
+    #intro_para {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
 }
